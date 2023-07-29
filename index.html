@@ -6,8 +6,11 @@
     <title>Convert img to base64</title>
 </head>
 <body>
-    <input type="file" name="convert" id="convert" accept="image/png, image/jpeg">
-    <button id="converterAction" onclick="getImage()" >convert</button>
+    <input type="file" name="convert" id="convert" accept="image/png, image/jpeg" onchange="getImage()">
+
+    <div>
+        <img src="" id="preView">
+    </div>
 
     <script src="/script.js"></script>
 </body>
