@@ -9,7 +9,8 @@
     <input type="file" name="convert" id="convert" accept="image/png, image/jpeg" onchange="getImage()">
 
     <div>
-        <img src="" id="preView">
+        <img src="" id="preView" onclick="copyBase64ImgString()">
+        <p id="imagemString" ></p>
     </div>
 
     <script src="/script.js"></script>
